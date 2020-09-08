@@ -94,7 +94,7 @@ li a:hover{
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	border-color:#fff;
+	border-color:#000;
 	text-align: center;
 	transition: .6s;
 	box-shadow: 0 5px 4px rgba(255,0,0,.5);
