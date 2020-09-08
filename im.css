@@ -94,13 +94,13 @@ li a:hover{
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	border-color:#000;
+	border-color:#fff;
 	text-align: center;
 	transition: .6s;
 	box-shadow: 0 5px 4px rgba(255,0,0,.5);
 }
 .icon ul li a:hover{
-	transform: translate(0,-10px);
+	transform: translate(0,-1px);
 	
 }
  h3{
