@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	align-items: center;
+	display: flex;
+	-wekit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+}
+section p{
+	color: red;
+	text-align: center;
+	font-family: 'oh shit';
+	font-size: 40px;
+	margin-top: 10%;
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.col {
+  flex: 20%;
+  padding: 0 4px;
+}
+
+.col img {
+
+  vertical-align: middle;
+}
+
+
+.col img{
+	width: 100%;
+	height: auto;
+	opacity: 0.1;
+    filter: grayscale(100%);
+	transition: 0.5s;
+	float: left;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	
+	
+}
+
+.col:hover img{
+	opacity: 1;
+	filter: grayscale(0);
+}
+.row .col::after{
+	content: "";
+	display: table;
+	clear: both;
+}
